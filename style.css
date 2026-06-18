@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  text-align:center;
+  padding:40px;
+  background:#1e293b;
+}
+
+header h1{
+  margin:0;
+  font-size:38px;
+}
+
+header p{
+  color:#38bdf8;
+}
+
+section{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.card{
+  background:#1e293b;
+  margin:15px 0;
+  padding:20px;
+  border-radius:12px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.02);
+  box-shadow:0 0 15px #38bdf8;
+}
+
+h2{
+  color:#38bdf8;
+  border-left:4px solid #38bdf8;
+  padding-left:10px;
+}
+
+a{
+  color:#60a5fa;
+  text-decoration:none;
+}
+
+.skill{
+  margin:10px 0;
+}
+
+.bar{
+  width:100%;
+  background:#334155;
+  border-radius:20px;
+}
+
+.fill{
+  height:10px;
+  width:0;
+  background:#38bdf8;
+  border-radius:20px;
+}
+
+/* skill animations */
+.html{animation:html 2s forwards;}
+.css{animation:css 2s forwards;}
+.js{animation:js 2s forwards;}
+.gd{animation:gd 2s forwards;}
+.ve{animation:ve 2s forwards;}
+
+@keyframes html{to{width:95%;}}
+@keyframes css{to{width:90%;}}
+@keyframes js{to{width:70%;}}
+@keyframes gd{to{width:75%;}}
+@keyframes ve{to{width:80%;}}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#1e293b;
+}
